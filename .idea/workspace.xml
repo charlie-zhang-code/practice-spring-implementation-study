@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e793d6d1-db2a-4198-9f8d-14d2b3bb450b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step-01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step-02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step-03/pom.xml" afterDir="false" />
+    <list default="true" id="13a81b8e-d0eb-43c9-a5ed-d9482d87424e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/step-04/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +18,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -27,69 +25,51 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="E:\Dev\Data\Maven\Repository" />
-        <option name="userSettingsFile" value="E:\Dev\Data\Maven\Conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2rCaoBzqEK0NzEA1OPxRdhFMSxn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="2rFNfZG8Ohj9Ab59vWMf5ZfouJz" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApiTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApiTest.test_BeanFactory (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApiTest.test_BeanFactory (2).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApiTest.test_BeanFactory.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApiTest.test_cglib.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApiTest.test_constructor.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApiTest.test_newInstance.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/MyProjects/spring-implementation-study/step-03&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/MyProjects/spring-implementation-study/step-03/src/main/java/io/github/charlie/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ApiTest.test_BeanFactory.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/OpenProjects/small-spring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\MyProjects\spring-implementation-study\step-03" />
-      <recent name="E:\MyProjects\spring-implementation-study\step-02\src" />
+      <recent name="E:\MyProjects\spring-implementation-study\step-04\src\test\java\io\github\charlie\springframework\test" />
+      <recent name="E:\MyProjects\spring-implementation-study\step-04\src\test\java" />
+      <recent name="E:\MyProjects\spring-implementation-study\step-04\src\main\java\io\github\charlie\springframework\beans\factory" />
+      <recent name="E:\MyProjects\spring-implementation-study" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.github.charlie.springframework.beans.factory" />
       <recent name="io.github.charlie.springframework.beans.factory.config" />
+      <recent name="io.github.charlie.springframework.beans" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_parameterTypes">
-    <configuration name="ApiTest.test_BeanFactory (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="step-03" />
+  <component name="RunManager">
+    <configuration name="ApiTest.test_BeanFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="step-04" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.github.charlie.springframework.test.*" />
@@ -104,77 +84,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_cglib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="step-03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.charlie.springframework.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.charlie.springframework.test" />
-      <option name="MAIN_CLASS_NAME" value="io.github.charlie.springframework.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_cglib" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.test_constructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="step-03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.charlie.springframework.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.charlie.springframework.test" />
-      <option name="MAIN_CLASS_NAME" value="io.github.charlie.springframework.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_constructor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.test_newInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="step-03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.charlie.springframework.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.charlie.springframework.test" />
-      <option name="MAIN_CLASS_NAME" value="io.github.charlie.springframework.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_newInstance" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.test_parameterTypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="step-03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.charlie.springframework.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.charlie.springframework.test" />
-      <option name="MAIN_CLASS_NAME" value="io.github.charlie.springframework.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_parameterTypes" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiTest.test_parameterTypes" />
-        <item itemvalue="JUnit.ApiTest.test_constructor" />
-        <item itemvalue="JUnit.ApiTest.test_newInstance" />
-        <item itemvalue="JUnit.ApiTest.test_cglib" />
-        <item itemvalue="JUnit.ApiTest.test_BeanFactory (2)" />
+        <item itemvalue="JUnit.ApiTest.test_BeanFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -189,27 +101,18 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e793d6d1-db2a-4198-9f8d-14d2b3bb450b" name="Changes" comment="" />
-      <created>1736065682271</created>
+      <changelist id="13a81b8e-d0eb-43c9-a5ed-d9482d87424e" name="Changes" comment="" />
+      <created>1736150966859</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1736065682271</updated>
-      <workItem from="1736065683278" duration="5778000" />
+      <updated>1736150966859</updated>
+      <workItem from="1736150967958" duration="89000" />
+      <workItem from="1736218074858" duration="5465000" />
+      <workItem from="1736225876386" duration="262000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/io/github/charlie/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
