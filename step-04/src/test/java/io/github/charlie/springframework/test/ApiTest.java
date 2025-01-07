@@ -16,22 +16,22 @@ import java.lang.reflect.Constructor;
 public class ApiTest {
     @Test
     public void test_BeanFactory() {
-        // 1.初始化 BeanFactory
+        // int
         DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
 
-        // 2. UserDao 注册
+        // register
         beanFactory.registerBeanDefinition("userDao", new BeanDefinition(UserDao.class));
 
-        // 3. UserService 设置属性[uId、userDao]
+        // UserService set uid and userDao
         PropertyValues propertyValues = new PropertyValues();
         propertyValues.addPropertyValue(new PropertyValue("uId", "10001"));
-        propertyValues.addPropertyValue(new PropertyValue("userDao",new BeanReference("userDao")));
+        propertyValues.addPropertyValue(new PropertyValue("userDao", new BeanReference("userDao")));
 
-        // 4. UserService 注入bean
+        // reference
         BeanDefinition beanDefinition = new BeanDefinition(UserService.class, propertyValues);
         beanFactory.registerBeanDefinition("userService", beanDefinition);
 
-        // 5. UserService 获取bean
+        // get bean
         UserService userService = (UserService) beanFactory.getBean("userService");
         userService.queryUserInfo();
     }
