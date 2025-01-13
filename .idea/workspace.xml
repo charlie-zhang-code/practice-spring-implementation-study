@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13a81b8e-d0eb-43c9-a5ed-d9482d87424e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/step-10/src/main/java/io/github/charlie/springframework/beans/factory/config/SingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-10/src/main/java/io/github/charlie/springframework/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-10/src/main/java/io/github/charlie/springframework/context/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-10/src/main/java/io/github/charlie/springframework/context/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-10/src/main/java/io/github/charlie/springframework/context/support/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-10/src/main/java/io/github/charlie/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-10/src/main/java/io/github/charlie/springframework/util/ClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-10/src/main/java/io/github/charlie/springframework/util/ClassUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-10/src/test/java/io/github/charlie/springframework/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-10/src/test/java/io/github/charlie/springframework/test/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-10/src/test/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/step-10/src/test/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step-10/src/test/java/io/github/charlie/springframework/test/event/ContextRefreshedEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-10/src/test/java/io/github/charlie/springframework/test/event/ContextRefreshedEventListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +196,7 @@
       <workItem from="1736218074858" duration="5465000" />
       <workItem from="1736225876386" duration="7140000" />
       <workItem from="1736404191346" duration="7853000" />
-      <workItem from="1736750825370" duration="6021000" />
+      <workItem from="1736750825370" duration="6521000" />
     </task>
     <servers />
   </component>
