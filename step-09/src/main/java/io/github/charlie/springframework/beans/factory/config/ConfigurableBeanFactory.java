@@ -8,5 +8,9 @@ import io.github.charlie.springframework.beans.factory.HierarchicalBeanFactory;
  * @Description: TODO
  */
 public interface ConfigurableBeanFactory extends HierarchicalBeanFactory, SingletonBeanRegistry {
+    String SCOPE_SINGLETON = "singleton";
+
+    String SCOPE_PROTOTYPE = "prototype";
+
     void addBeanPostProcessor(BeanPostProcessor beanPostProcessor);
 }
