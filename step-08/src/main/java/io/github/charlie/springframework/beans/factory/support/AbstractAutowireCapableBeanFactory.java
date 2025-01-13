@@ -5,8 +5,7 @@ import cn.hutool.core.util.StrUtil;
 import io.github.charlie.springframework.beans.BeansException;
 import io.github.charlie.springframework.beans.PropertyValue;
 import io.github.charlie.springframework.beans.PropertyValues;
-import io.github.charlie.springframework.beans.factory.DisposableBean;
-import io.github.charlie.springframework.beans.factory.InitializingBean;
+import io.github.charlie.springframework.beans.factory.*;
 import io.github.charlie.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import io.github.charlie.springframework.beans.factory.config.BeanDefinition;
 import io.github.charlie.springframework.beans.factory.config.BeanPostProcessor;
@@ -28,11 +27,14 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
         Object bean = null;
         try {
             bean = createBeanInstance(beanDefinition, beanName, args);
+            // 给Bean填充属性
             applyPropertyValues(beanName, bean, beanDefinition);
+            // 执行bean的初始化方法和 BeanPostProcessor 的前置和后置处理方法
             bean = initializeBean(beanName, bean, beanDefinition);
         } catch (Exception e) {
             throw new BeansException("Instantiation of bean failed", e);
         }
+        // 注册实现DisposableBean接口的Bean对象
         registerDisposableBeanIfNecessary(beanName, bean, beanDefinition);
         addSingleton(beanName, bean);
         return bean;
@@ -85,6 +87,18 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
     }
 
     private Object initializeBean(String beanName, Object bean, BeanDefinition beanDefinition) {
+        if (bean instanceof Aware) {
+            if (bean instanceof BeanFactoryAware) {
+                ((BeanFactoryAware) bean).setBeanFactory(this);
+            }
+            if (bean instanceof BeanClassLoaderAware) {
+                ((BeanClassLoaderAware) bean).setBeanClassLoader(getBeanClassLoader());
+            }
+            if (bean instanceof BeanNameAware) {
+                ((BeanNameAware) bean).setBeanName(beanName);
+            }
+        }
+
         // 执行BeanPostProcessor Before方法
         Object wrappedBean = applyBeanPostProcessorsBeforeInitialization(bean, beanName);
         //=========================================

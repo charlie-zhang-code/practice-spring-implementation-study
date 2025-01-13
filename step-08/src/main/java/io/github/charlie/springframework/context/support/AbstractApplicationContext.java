@@ -18,13 +18,22 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader i
 
     @Override
     public void refresh() throws BeansException {
+        // 创建BeanFactory，并加载BeanDefinition
         refreshBeanFactory();
 
+        // 获取BeanFactory
         ConfigurableListableBeanFactory beanFactory = getBeanFactory();
 
+        // 添加 ApplicationContextAwareProcessor，让继承自 ApplicationContextAware 的 Bean 对象都能感知所属的 ApplicationContext
+        beanFactory.addBeanPostProcessor(new ApplicationContextAwareProcessor(this));
+
+        // 在Bean实例化之前执行BeanFactoryPostProcessor
         invokeBeanFactoryPostProcessors(beanFactory);
 
+        // BeanPostProcessor 需要提前于其他 Bean 对象实例化之前执行注册操作
         registerBeanPostProcessors(beanFactory);
+
+        //  提前实例化单例Bean对象
         beanFactory.preInstantiateSingletons();
     }
 
