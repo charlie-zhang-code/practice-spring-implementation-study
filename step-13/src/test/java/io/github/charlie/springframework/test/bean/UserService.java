@@ -1,5 +1,7 @@
 package io.github.charlie.springframework.test.bean;
 
+import io.github.charlie.springframework.stereotype.Component;
+
 import java.util.Random;
 
 /**
@@ -7,7 +9,10 @@ import java.util.Random;
  * @Date: 2025/1/14
  * @Description: TODO
  */
-public class UserService implements IUserService{
+@Component("userService")
+public class UserService implements IUserService {
+    private String token;
+
     @Override
     public String queryUserInfo() {
         try {
@@ -27,5 +32,18 @@ public class UserService implements IUserService{
         }
 
         return "注册用户：" + userName + " success!";
+    }
+
+    @Override
+    public String toString() {
+        return "UserService#token = { " + token + " }";
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
     }
 }
