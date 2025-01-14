@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a81b8e-d0eb-43c9-a5ed-d9482d87424e" name="Changes" comment="" />
+    <list default="true" id="13a81b8e-d0eb-43c9-a5ed-d9482d87424e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step-11/src/test/java/io/github/charlie/springframework/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-11/src/test/java/io/github/charlie/springframework/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step-11/src/test/java/io/github/charlie/springframework/test/event/ContextClosedEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/step-11/src/test/java/io/github/charlie/springframework/test/event/ContextRefreshedEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/step-11/src/test/java/io/github/charlie/springframework/test/event/CustomEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/step-11/src/test/java/io/github/charlie/springframework/test/event/CustomEventListener.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.ApiTest.test_BeanFactory.executor": "Run",
+    "JUnit.ApiTest.test_aop.executor": "Run",
     "JUnit.ApiTest.test_classpath.executor": "Run",
     "JUnit.ApiTest.test_event.executor": "Run",
     "JUnit.ApiTest.test_factory_bean.executor": "Run",
@@ -53,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/MyProjects/practice-spring-implementation-study",
+    "last_opened_file_path": "E:/MyProjects/practice-spring-implementation-study/step-11",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,11 +77,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProjects\practice-spring-implementation-study\step-11" />
       <recent name="E:\MyProjects\spring-implementation-study\step-10" />
       <recent name="E:\MyProjects\spring-implementation-study\step-09" />
       <recent name="E:\MyProjects\spring-implementation-study\step-08" />
       <recent name="E:\MyProjects\spring-implementation-study\step-07" />
-      <recent name="E:\MyProjects\spring-implementation-study\step-06\src\main\java\io\github\charlie\springframework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\MyProjects\spring-implementation-study\step-05\src\test" />
@@ -83,7 +92,39 @@
       <recent name="io.github.charlie.springframework.beans" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_event">
+  <component name="RunManager" selected="JUnit.ApiTest.test_dynamic">
+    <configuration name="ApiTest.test_aop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="step-11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.charlie.springframework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.charlie.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="io.github.charlie.springframework.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_aop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_dynamic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="step-11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.charlie.springframework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.charlie.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="io.github.charlie.springframework.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_dynamic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTest.test_event" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="step-10" />
       <extension name="coverage">
@@ -132,38 +173,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_xml (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="step-06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.charlie.springframework.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.charlie.springframework.test" />
-      <option name="MAIN_CLASS_NAME" value="io.github.charlie.springframework.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_xml" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.test_xml (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="step-08" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.charlie.springframework.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.github.charlie.springframework.test" />
-      <option name="MAIN_CLASS_NAME" value="io.github.charlie.springframework.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_xml" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="step-04" />
       <method v="2">
@@ -179,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_dynamic" />
+        <item itemvalue="JUnit.ApiTest.test_aop" />
         <item itemvalue="JUnit.ApiTest.test_event" />
         <item itemvalue="JUnit.ApiTest.test_factory_bean" />
         <item itemvalue="JUnit.ApiTest.test_prototype" />
-        <item itemvalue="JUnit.ApiTest.test_xml (3)" />
-        <item itemvalue="JUnit.ApiTest.test_xml (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +217,7 @@
       <workItem from="1736225876386" duration="7140000" />
       <workItem from="1736404191346" duration="7853000" />
       <workItem from="1736750825370" duration="6521000" />
-      <workItem from="1736815792245" duration="59000" />
+      <workItem from="1736815792245" duration="2662000" />
     </task>
     <servers />
   </component>
