@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13a81b8e-d0eb-43c9-a5ed-d9482d87424e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/step-14/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step-15/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/UserServiceBeforeAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/UserServiceBeforeAdvice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,7 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/MyProjects/practice-spring-implementation-study/step-14/src/test/resources",
+    "last_opened_file_path": "E:/MyProjects/practice-spring-implementation-study/step-15/src/test/java/io/github/charlie/springframework/test/bean2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,11 +83,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProjects\practice-spring-implementation-study\step-15\src\test\java\io\github\charlie\springframework\test\bean2" />
+      <recent name="E:\MyProjects\practice-spring-implementation-study\step-15" />
       <recent name="E:\MyProjects\practice-spring-implementation-study\step-14\src\test\resources" />
       <recent name="E:\MyProjects\practice-spring-implementation-study\step-14" />
       <recent name="E:\MyProjects\practice-spring-implementation-study\step-13\src\test\resources" />
-      <recent name="E:\MyProjects\practice-spring-implementation-study\step-13" />
-      <recent name="E:\MyProjects\practice-spring-implementation-study\step-12" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\MyProjects\spring-implementation-study\step-05\src\test" />
@@ -95,7 +99,7 @@
       <recent name="io.github.charlie.springframework.beans" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_scan (1)">
+  <component name="RunManager" selected="JUnit.ApiTest.test_autoProxy">
     <configuration name="ApiTest.test_aop (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="step-12" />
       <extension name="coverage">
@@ -112,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_dynamic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="step-11" />
+    <configuration name="ApiTest.test_autoProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="step-15" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.github.charlie.springframework.test.*" />
@@ -122,7 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.github.charlie.springframework.test" />
       <option name="MAIN_CLASS_NAME" value="io.github.charlie.springframework.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_dynamic" />
+      <option name="METHOD_NAME" value="test_autoProxy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_autoProxy" />
         <item itemvalue="JUnit.ApiTest.test_scan (1)" />
         <item itemvalue="JUnit.ApiTest.test_scan" />
         <item itemvalue="JUnit.ApiTest.test_property" />
         <item itemvalue="JUnit.ApiTest.test_aop (1)" />
-        <item itemvalue="JUnit.ApiTest.test_dynamic" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +224,7 @@
       <workItem from="1736225876386" duration="7140000" />
       <workItem from="1736404191346" duration="7853000" />
       <workItem from="1736750825370" duration="6521000" />
-      <workItem from="1736815792245" duration="8835000" />
+      <workItem from="1736815792245" duration="9884000" />
     </task>
     <servers />
   </component>
