@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a81b8e-d0eb-43c9-a5ed-d9482d87424e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-12/src/main/java/io/github/charlie/springframework/aop/AdvisedSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-12/src/main/java/io/github/charlie/springframework/aop/AdvisedSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-12/src/main/java/io/github/charlie/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-12/src/main/java/io/github/charlie/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-12/src/test/java/io/github/charlie/springframework/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-12/src/test/java/io/github/charlie/springframework/test/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-12/src/test/java/io/github/charlie/springframework/test/bean/UserServiceInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-12/src/test/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/step-12/src/test/resources/spring.xml" afterDir="false" />
-    </list>
+    <list default="true" id="13a81b8e-d0eb-43c9-a5ed-d9482d87424e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +81,7 @@
       <recent name="E:\MyProjects\spring-implementation-study\step-05\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.github.charlie.springframework.test.bean" />
       <recent name="io.github.charlie.springframework.beans.factory" />
       <recent name="io.github.charlie.springframework.beans.factory.config" />
       <recent name="io.github.charlie.springframework.beans" />
@@ -218,7 +212,7 @@
       <workItem from="1736225876386" duration="7140000" />
       <workItem from="1736404191346" duration="7853000" />
       <workItem from="1736750825370" duration="6521000" />
-      <workItem from="1736815792245" duration="4909000" />
+      <workItem from="1736815792245" duration="5280000" />
     </task>
     <servers />
   </component>
