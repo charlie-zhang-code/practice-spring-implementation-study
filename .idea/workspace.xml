@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13a81b8e-d0eb-43c9-a5ed-d9482d87424e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/step-15/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/UserServiceBeforeAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/step-15/src/test/java/io/github/charlie/springframework/test/bean2/UserServiceBeforeAdvice.java" afterDir="false" />
-    </list>
+    <list default="true" id="13a81b8e-d0eb-43c9-a5ed-d9482d87424e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +41,7 @@
     "JUnit.ApiTest.test_BeanFactory.executor": "Run",
     "JUnit.ApiTest.test_aop (1).executor": "Run",
     "JUnit.ApiTest.test_aop.executor": "Run",
+    "JUnit.ApiTest.test_autoProxy.executor": "Run",
     "JUnit.ApiTest.test_classpath.executor": "Run",
     "JUnit.ApiTest.test_dynamic.executor": "Run",
     "JUnit.ApiTest.test_event.executor": "Run",
@@ -224,7 +216,7 @@
       <workItem from="1736225876386" duration="7140000" />
       <workItem from="1736404191346" duration="7853000" />
       <workItem from="1736750825370" duration="6521000" />
-      <workItem from="1736815792245" duration="9884000" />
+      <workItem from="1736815792245" duration="10588000" />
     </task>
     <servers />
   </component>
